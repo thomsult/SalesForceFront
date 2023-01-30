@@ -1,7 +1,7 @@
 import { io } from "socket.io-client";
 import useCookies from "../hooks/useCookies";
 
-const SERVER = `${import.meta.env.VITE_BACKEND_URL_SOCKET}/api/private/Lobby`;
+const SERVER = `${"https://http-nodejs-production-ee73.up.railway.app"}/api/private/Lobby`;
 
 function SocketAuth() {
   const { cookies } = useCookies();

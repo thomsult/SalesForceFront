@@ -2,7 +2,7 @@ import axios from "axios";
 import useCookies from "../hooks/useCookies";
 
 /// const urls = "http://192.168.1.13:5000"; // localHost
-const home = import.meta.env.VITE_BACKEND_URL;
+const home = "https://http-nodejs-production-ee73.up.railway.app";
 export default function AxiosWithAuth({ url, method, data = null }) {
   const { cookies } = useCookies();
 
